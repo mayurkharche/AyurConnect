@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AyurConnect Assingment</string>
+    <string name="title_activity_startup">AyurConnect Assingment</string>
+    <string name="title_activity_suggession">SuggessionActivity</string>
+    <string name="title_activity_show_bookmarks">ShowBookmarksActivity</string>
+
+    <!-- For Facebook -->
+    <string name="facebook_app_id">844076675745074</string>
+    <string name="fb_login_protocol_scheme">fb844076675745074</string>
+</resources>

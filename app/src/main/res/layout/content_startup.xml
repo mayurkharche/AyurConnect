@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_startup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="myprojects.com.ayurconnectassingment.Activities.StartupActivity"
+    tools:showIn="@layout/activity_startup">
+
+    <com.koonat.easyfont.TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AyurConnect Assingment"
+        android:textSize="30dp"
+        app:font_path="pacifico.ttf"
+        android:textColor="#FFF"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.koonat.easyfont.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-by Mayur Kharche"
+        android:textSize="20dp"
+        android:gravity="right"
+        android:textColor="#99FFFFFF"
+        app:font_path="pacifico.ttf"
+        android:layout_below="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+</RelativeLayout>
